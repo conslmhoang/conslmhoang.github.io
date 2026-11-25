@@ -90,7 +90,7 @@ img { max-width: 100%; }
 .btn.primary:hover { background: #f5a04f; }
 
 /* ---------- content ---------- */
-main { padding: 2rem 0 3rem; }
+main.wrap { padding-top: 2rem; padding-bottom: 3rem; }
 .card {
   background: var(--card);
   border: 1px solid var(--rule);
@@ -199,6 +199,19 @@ a.chip:hover { background: var(--sky-200); }
 .tool-desc { color: #e6e3de; line-height: 1.55; }
 .tool-meta { color: var(--sky-200); font-size: .88rem; margin-top: auto; }
 @media (prefers-reduced-motion: reduce) { .tool { transition: none; } .tool:hover { transform: none; } }
+
+/* engineering projects page */
+.proj-facts { margin-bottom: 1.5rem; }
+.proj-facts .fact { background: var(--card); border: 1px solid var(--rule); border-left: 4px solid var(--navy-500); }
+.scope { display: flex; flex-wrap: wrap; gap: .5rem; }
+.scope span { padding: .35rem .8rem; border-radius: 999px; background: var(--sky-100); color: var(--navy-700); font-size: .92rem; border: 1px solid var(--sky-200); }
+.proj-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1rem 1.5rem; }
+.proj { border-top: 3px solid var(--navy-700); padding-top: .8rem; }
+.proj-top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.proj-top .when { white-space: nowrap; margin: 0; }
+.proj p { margin-bottom: .4rem; }
+.proj p.small { margin-bottom: .35rem; }
+.more { margin: 1.5rem 0 0; padding-top: 1rem; border-top: 1px dashed var(--rule); color: var(--muted); }
 
 /* ---------- footer ---------- */
 .foot { background: var(--navy-900); color: var(--sky-200); font-size: .88rem; padding: 1.4rem 0; }
