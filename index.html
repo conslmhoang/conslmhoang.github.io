@@ -4,208 +4,82 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Le Minh Hoang</title>
-<meta name="description" content="Le Minh Hoang, civil engineer and graduate researcher in construction materials.">
+<meta name="description" content="Le Minh Hoang, civil engineer and graduate researcher in construction materials at Chonnam National University.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="top">
-  <a class="mark" href="#">LMH</a>
-  <nav aria-label="Sections">
-    <a href="#path">Path</a>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#awards">Awards</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="index.html"><strong>Le Minh Hoang</strong><span>Construction Materials Lab · Chonnam National University</span></a>
+    <nav class="tabs" aria-label="Pages">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-
-<section class="hero">
-  <div class="hero-text">
-    <h1>Le Minh<br>Hoang</h1>
-    <p class="role">Civil engineer, graduate researcher in construction materials</p>
-    <p class="lede">I came to concrete from the ground up. My first research used finite element models and neural networks to judge how well cement deep mixing (CDM) improves soft soil. Now, at the Construction Materials Lab of Chonnam National University, I build machine-learning models that predict the compressive and tensile behaviour of fiber-reinforced cementitious composites from their mix design.</p>
-    <p class="links">
-      <a href="#contact">Get in touch</a>
-      <a href="Le-Minh-Hoang-CV.pdf">Download CV (PDF)</a>
-      <a href="https://orcid.org/0009-0001-3286-7448">ORCID</a>
-    </p>
-  </div>
-  <figure class="portrait">
-    <img src="assets/photo.jpg" alt="Portrait of Le Minh Hoang" width="300" height="300">
-  </figure>
-</section>
-
-<section id="path" class="path">
-  <h2>Path</h2>
-  <p class="section-note">Read it like a borehole log: the newest layer sits on top, and each layer rests on the one below it.</p>
-
-  <ol class="log">
-    <li class="layer l-now">
-      <span class="depth">Now</span>
-      <div class="stratum" aria-hidden="true"></div>
-      <div class="body">
-        <h3>Graduate researcher, Construction Materials Lab</h3>
-        <p class="where">Chonnam National University, Gwangju, Korea</p>
-        <p>Data-driven mix design for high-ductility fiber-reinforced composites: collecting test data from the literature, training models for compressive strength and tensile strain, and turning them into a web calculator for lab use.</p>
-      </div>
-    </li>
-    <li class="layer l-gf">
-      <span class="depth">2025</span>
-      <div class="stratum" aria-hidden="true"></div>
-      <div class="body">
-        <h3>Construction method engineer</h3>
-        <p class="where">Golden Foundation Construction JSC · 10/2025 –</p>
-        <p>Proposed and reviewed construction methods for deep excavations, foundations, soft-soil improvement, retaining walls, bored piles and CDM piles, with stability checks, sequencing and safety calculations.</p>
-      </div>
-    </li>
-    <li class="layer l-lv">
-      <span class="depth">2025</span>
-      <div class="stratum" aria-hidden="true"></div>
-      <div class="body">
-        <h3>Structural design engineer (part-time)</h3>
-        <p class="where">Lien Viet Construction Design Co., Ltd. · 08–10/2025</p>
-        <p>Site investigation and retaining-wall reinforcement design for the Marriott Hoi An Resort &amp; Spa: soil and topography survey, PLAXIS and ETABS modelling, bearing-capacity and stability checks, detailed drawings.</p>
-      </div>
-    </li>
-    <li class="layer l-site">
-      <span class="depth">2023</span>
-      <div class="stratum" aria-hidden="true"></div>
-      <div class="body">
-        <h3>Site internships</h3>
-        <p class="where">REACTEC · 05–07/2023 &nbsp;/&nbsp; Phuc Phu Khang Construction · 05–08/2024</p>
-        <p>Structural appraisal of a Honda dealership in Da Lat; supervision of a 6-storey mixed-use building and a private residence from foundation to finishing: material inspection, daily monitoring, safety, reports, and SPT supervision.</p>
-      </div>
-    </li>
-    <li class="layer l-hcmut">
-      <span class="depth">2021</span>
-      <div class="stratum" aria-hidden="true"></div>
-      <div class="body">
-        <h3>B.Eng., Civil and Industrial Engineering</h3>
-        <p class="where">Ho Chi Minh City University of Technology (HCMUT) · 09/2021 – 11/2025</p>
-        <p>GPA 3.7/4.0, graduated with Excellent. Top thesis of the defense committee (semester 243), scored 9.3/10, on applying FEM and feedforward neural networks to evaluate ground improvement by CDM.</p>
-      </div>
-    </li>
-  </ol>
-</section>
-
-<section id="research" class="research">
-  <h2>Research</h2>
-  <div class="topics">
-    <article>
-      <h3>Machine learning for cementitious composites</h3>
-      <p>Predicting compressive strength and tensile strain capacity of fiber-reinforced and alkali-activated composites from binder, aggregate, fiber and curing inputs.</p>
-    </article>
-    <article>
-      <h3>Ground improvement with CDM</h3>
-      <p>Finite element analysis in PLAXIS combined with feedforward neural networks to assess how cement deep mixing columns stabilise soft ground.</p>
-    </article>
-    <article>
-      <h3>Geotechnical construction methods</h3>
-      <p>Deep excavation, retaining walls and pile works, where design meets what the site actually allows.</p>
-    </article>
-  </div>
-
-  <h3 class="sub">Projects</h3>
-  <ul class="plain">
-    <li>Principal investigator, Student Scientific Research Project, 2024</li>
-    <li>Member, Student Scientific Research Project, 2023</li>
-    <li>Principal investigator, project submitted to the Southern Institute of Water Resources Research</li>
-    <li>Member, project presented at the National Student Scientific Conference (SCNSU), 2024</li>
-    <li>Principal investigator, entry to the Euréka Scientific Research Award, 2025</li>
-    <li>Research submitted to the Vietnamese Society for Soil Mechanics and Geotechnical Engineering</li>
-  </ul>
-</section>
-
-<section id="projects" class="projects">
-  <h2>Projects</h2>
-  <div class="projects-list">
-    <article class="project">
-      <h3>Construction Materials Lab: mix design &amp; strength prediction</h3>
-      <p class="tech">JavaScript, Python, machine learning</p>
-      <p>A browser tool for ECC/SHCC, UHPC and geopolymer composites. It turns mix proportions into batch quantities with cost and CO₂, and predicts compressive strength and tensile strain capacity from the mix, fibers and curing, with an 80% range.</p>
-      <p class="plinks">
-        <a href="https://conslmhoang.github.io/construction-materials-lab/">Open the app</a>
-        <a href="https://github.com/conslmhoang/construction-materials-lab">Source on GitHub</a>
-      </p>
-    </article>
-    <article class="project">
-      <h3>HDC Wiki: high-ductility concrete knowledge base</h3>
-      <p class="tech">Python, LLM-maintained Markdown wiki</p>
-      <p>A linked literature-review wiki on high-ductility concrete, built from research papers and kept up to date with an LLM following a fixed schema, published as a searchable site.</p>
-      <p class="plinks">
-        <a href="https://conslmhoang.github.io/HDC-wiki/">Open the wiki</a>
-        <a href="https://github.com/conslmhoang/HDC-wiki">Source on GitHub</a>
-      </p>
-    </article>
-  </div>
-  <p class="gh-all"><a href="https://github.com/conslmhoang">All repositories on GitHub</a></p>
-</section>
-
-<section id="awards" class="awards">
-  <h2>Awards &amp; honours</h2>
-  <dl class="rows">
-    <div><dt>2025</dt><dd>“Five-Good Student”, national (Central) level</dd></div>
-    <div><dt>2025</dt><dd>“Five-Good Student”, Ho Chi Minh City level</dd></div>
-    <div><dt>—</dt><dd>Second Prize, 35th National Mechanics Olympiad, Soil Mechanics</dd></div>
-    <div><dt>2023–25</dt><dd>Outstanding scholarships: BKCONS (2023), VNU-HCM (2024), GOLF Bach Khoa (2024), BKXDK99 (2025), REMARK SHARING (2025)</dd></div>
-    <div><dt>—</dt><dd>Multiple Academic Encouragement Scholarships, HCMUT</dd></div>
-  </dl>
-</section>
-
-<section id="skills" class="skills">
-  <h2>Skills</h2>
-  <div class="skill-grid">
+<section class="band hero">
+  <div class="wrap">
+    <img class="avatar" src="assets/photo.jpg" alt="Portrait of Le Minh Hoang" width="300" height="300">
     <div>
-      <h3>Analysis &amp; design</h3>
-      <p>PLAXIS 2D, PLAXIS 3D, GeoSlope, ETABS, SAP2000, SAFE</p>
+      <h1>Le Minh Hoang</h1>
+      <p class="role">Civil engineer · Graduate researcher in construction materials</p>
+      <p class="org">Construction Materials Lab, Chonnam National University, Gwangju, Korea</p>
+      <div class="btns">
+        <a class="btn primary" href="profile.html">View profile</a>
+        <a class="btn" href="Le-Minh-Hoang-CV.pdf">Download CV</a>
+        <a class="btn" href="https://orcid.org/0009-0001-3286-7448">ORCID</a>
+        <a class="btn" href="https://github.com/conslmhoang">GitHub</a>
+      </div>
     </div>
-    <div>
-      <h3>Drawing &amp; BIM</h3>
-      <p>AutoCAD, Revit</p>
-    </div>
-    <div>
-      <h3>Data</h3>
-      <p>Python, neural networks, machine-learning regression</p>
-    </div>
-    <div>
-      <h3>Languages</h3>
-      <p>Vietnamese (native), English (TOEIC L&amp;R 620)</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="card">
+    <h2>About</h2>
+    <p>I came to concrete from the ground up. My undergraduate research used finite element models and neural networks to judge how well cement deep mixing (CDM) improves soft soil, and I worked on site as a supervisor, designer and construction method engineer.</p>
+    <p>Now, at the Construction Materials Lab of Chonnam National University, I build machine-learning models that predict the compressive strength and tensile strain capacity of fiber-reinforced cementitious composites from their mix design, and turn them into tools the lab can use.</p>
+    <div class="facts">
+      <div class="fact"><b>3.7 / 4.0</b><span>GPA, B.Eng. HCMUT, Excellent</span></div>
+      <div class="fact"><b>9.3 / 10</b><span>Top graduation thesis of the committee</span></div>
+      <div class="fact"><b>2nd Prize</b><span>National Mechanics Olympiad, Soil Mechanics</span></div>
+      <div class="fact"><b>National</b><span>“Five-Good Student” title, 2025</span></div>
     </div>
   </div>
 
-  <h3 class="sub">Certificates</h3>
-  <dl class="rows">
-    <div><dt>05/2025</dt><dd>TOEIC Listening &amp; Reading, 620</dd></div>
-    <div><dt>02/2025</dt><dd>PLAXIS 2D</dd></div>
-    <div><dt>02/2025</dt><dd>BIM 3D, Architecture</dd></div>
-    <div><dt>02/2024</dt><dd>Basic ETABS</dd></div>
-    <div><dt>10/2022</dt><dd>Basic Information Technology Application</dd></div>
-  </dl>
-
-  <h3 class="sub">Outside work</h3>
-  <p class="outside">Instrumentalist in the Civil Engineering Music Club (CiEMC) since 2023, playing at club events and charity visits to pagodas and orphanages. Also: guitar, football, swimming, and books.</p>
-</section>
-
-<section id="contact" class="contact">
-  <h2>Contact</h2>
-  <p class="contact-line">Email <a href="mailto:cons.lmhoang@gmail.com">cons.lmhoang@gmail.com</a></p>
-  <p class="contact-line">GitHub <a href="https://github.com/conslmhoang">github.com/conslmhoang</a></p>
-  <p class="contact-line">ORCID <a href="https://orcid.org/0009-0001-3286-7448">0009-0001-3286-7448</a></p>
-  <p class="contact-line">Construction Materials Lab, Chonnam National University, 77 Yongbong-ro, Buk-gu, Gwangju, Korea</p>
-</section>
-
+  <div class="tiles">
+    <a class="tile" href="profile.html">
+      <h3>Profile</h3>
+      <p>Education, work experience, awards, skills and certificates.</p>
+    </a>
+    <a class="tile" href="research.html">
+      <h3>Research</h3>
+      <p>Machine learning for cementitious composites and ground improvement with CDM.</p>
+    </a>
+    <a class="tile" href="projects.html">
+      <h3>Projects</h3>
+      <p>The strength-prediction web app and the HDC literature wiki, with live links.</p>
+    </a>
+    <a class="tile" href="contact.html">
+      <h3>Contact</h3>
+      <p>Email, ORCID, GitHub and lab address.</p>
+    </a>
+  </div>
 </main>
 
 <footer class="foot">
-  <p>© 2026 Le Minh Hoang</p>
+  <div class="wrap">
+    <span>© 2026 Le Minh Hoang</span>
+    <span><a href="mailto:cons.lmhoang@gmail.com">cons.lmhoang@gmail.com</a></span>
+  </div>
 </footer>
-
 </body>
 </html>
