@@ -1,18 +1,18 @@
 :root {
-  /* deep petrol teal (names kept from the first palette so selectors stay the same) */
-  --navy-900: #0b2e33;
-  --navy-800: #0f4049;
-  --navy-700: #136170;
-  --navy-500: #1f8a8a;
-  --sky-200: #bfe3dd;
-  --sky-100: #e2f3f0;
-  --bg: #edf3f2;          /* page background: tinted, not white */
+  /* graphite + safety orange (variable names kept so selectors stay the same) */
+  --navy-900: #1d2125;    /* graphite, top bar and footer */
+  --navy-800: #262b30;
+  --navy-700: #343a40;    /* headings, tile titles */
+  --navy-500: #e8772e;    /* orange: tile tops, timeline dots, buttons */
+  --sky-200: #f3d3b8;     /* light text on dark */
+  --sky-100: #fbeee3;     /* chips, fact boxes */
+  --bg: #f2f1ee;          /* warm light grey page */
   --card: #ffffff;
-  --ink: #13292d;
-  --muted: #52676a;
-  --rule: #d3e2df;
-  --link: #0f7a7a;
-  --gold: #7ee0b8;        /* mint accent for the active tab and the main button */
+  --ink: #1f2327;
+  --muted: #5d6268;
+  --rule: #e3dfd8;
+  --link: #c25a14;
+  --gold: #f28c28;        /* main button and active tab */
   --wrap: 68rem;
   --radius: 10px;
 }
@@ -61,7 +61,8 @@ img { max-width: 100%; }
 
 /* ---------- page header band ---------- */
 .band {
-  background: linear-gradient(120deg, var(--navy-800) 0%, var(--navy-700) 55%, var(--navy-500) 100%);
+  background: linear-gradient(120deg, var(--navy-900) 0%, var(--navy-800) 50%, #3d444b 100%);
+  border-bottom: 4px solid var(--gold);
   color: #fff;
   padding: 2.4rem 0 2.2rem;
 }
@@ -86,7 +87,7 @@ img { max-width: 100%; }
 }
 .btn:hover { background: rgba(255,255,255,.2); }
 .btn.primary { background: var(--gold); color: var(--navy-900); border-color: var(--gold); }
-.btn.primary:hover { background: #9be9c9; }
+.btn.primary:hover { background: #f5a04f; }
 
 /* ---------- content ---------- */
 main { padding: 2rem 0 3rem; }
@@ -113,7 +114,7 @@ p { margin: 0 0 .9rem; }
   background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius);
   padding: 1.2rem 1.3rem; border-top: 4px solid var(--navy-500);
 }
-.tile:hover { border-color: var(--navy-500); box-shadow: 0 4px 14px rgba(11,46,51,.10); }
+.tile:hover { border-color: var(--navy-500); box-shadow: 0 4px 14px rgba(29,33,37,.10); }
 .tile h3 { color: var(--navy-700); }
 .tile p { margin: 0; color: var(--muted); font-size: .95rem; }
 
